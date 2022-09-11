@@ -1,0 +1,26 @@
+.home {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .title {
+    font-size: 30px;
+  }
+  
+  .productsContainer {
+    display: flex;
+    width: 100%;
+    padding: 20px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .products {
+    width: 318px;
+    /* height: 347px; */
+    margin: 10px;
+  }
+
+  .card-body {
+    text-align: center;
+  }
